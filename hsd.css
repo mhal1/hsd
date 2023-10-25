@@ -63,8 +63,10 @@ a:active {
   .bannerItem {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center !important;
+    align-content: center;
     column-gap: 5px;
+    border: 1px solid red;
   }
 }
 
