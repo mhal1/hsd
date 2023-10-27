@@ -38,8 +38,6 @@ body {
 }
 
 .bannerItem {
-  border: 1px solid red;
-  -webkit-border: 1px solid red;
   display: flex;
   -webkit-display: flex;
   flex-direction: row;
