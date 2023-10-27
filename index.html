@@ -78,30 +78,30 @@
     </ul>
   </div> -->
 
-  
+
 
 
 
   <script type="text/javascript">
     (function () {
       var button = document.getElementById("toggle-menu");
+      var menu = document.getElementById("main-menu");
+
       button.addEventListener("click", function (event) {
         event.preventDefault();
-        var menu = document.getElementById("main-menu");
         menu.classList.toggle("is-open");
+      });
+
+      // Event listener to close the menu when clicking outside of it
+      document.addEventListener("click", function (event) {
+        if (!menu.contains(event.target) && !button.contains(event.target)) {
+          menu.classList.remove("is-open");
+        }
       });
     })();
 
-    const menu = document.querySelector('.menu-dropdown');
 
-    // Add event listener to the document to close dropdown on click outside
-    document.addEventListener('click', function (event) {
-      if (!menu.contains(event.target)) {
-        // Click occurred outside the menu; close all dropdowns
-        var menu = document.getElementById("main-menu");
-        menu.classList.toggle("is-open");
-      }
-    });
+
   </script>
 </body>
 
