@@ -66,6 +66,8 @@ a:active {
     flex-direction: row;
     align-items: center !important;
     align-content: center;
+    -webkit-align-items: center !important;
+    -webkit-align-content: center;
     column-gap: 5px;
   }
 }
@@ -128,6 +130,7 @@ a:active {
     -webkit-background-clip: text;
     background-clip: text;
     animation: shine infinite ease-in-out alternate-reverse 1.5s;
+    -webkit-animation: shine infinite ease-in-out alternate-reverse 1.5s;
   }
 }
 
