@@ -216,7 +216,7 @@ main {
 
 .hero-2 {
   font-family: 'Prompt', sans-serif;
-  font-size: 11pt;
+  font-size: 12pt;
 }
 
 .notice {
@@ -240,14 +240,46 @@ main {
 }
 
 .mainImg{
-  /* border: 1px red solid; */
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .mImg{
-  width: 80%;
-  border-radius: 10px;
+  padding: 1em;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.optionsMain{
+  padding: 1em;
+  font-family: Gabarito;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3em;
+}
+
+.bookAppointment {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.bATitle{
+  font-size: 17pt;
+}
+
+.bAText {
+  font-size: 12pt;
+}
+
+
+button {
+  border: rgb(25, 0, 255) 2px solid;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 12pt;
+  font-family: Prompt;
+  padding: 0.25em 0.5em;
 }
