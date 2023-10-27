@@ -119,6 +119,9 @@ a:active {
   appearance: none;
 
   @supports ((background-clip: text) or (-webkit-background-clip: text)) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     color: transparent;
     background-image:
       linear-gradient(to right,
