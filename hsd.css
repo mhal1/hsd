@@ -60,6 +60,9 @@ a:active {
   column-gap: 20px;
   background-color: #f5fbff;
   color: rgb(0, 62, 116);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
   .bannerItem {
     display: flex;
@@ -69,6 +72,9 @@ a:active {
     -webkit-align-items: center !important;
     -webkit-align-content: center;
     column-gap: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 
