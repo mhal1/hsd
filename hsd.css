@@ -65,7 +65,9 @@ a:active {
   appearance: none;
 
   .bannerItem {
+    border: 1px solid red;
     display: flex;
+    -webkit-display: flex;
     flex-direction: row;
     align-items: center !important;
     align-content: center;
