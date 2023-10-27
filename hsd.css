@@ -35,7 +35,7 @@ body {
   -moz-appearance: none;
   appearance: none;
 
-  .bannerItem {
+  > .bannerItem {
     border: 1px solid red;
     -webkit-border: 1px solid red;
     display: flex;
