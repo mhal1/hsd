@@ -54,10 +54,12 @@ body {
 @keyframes shine {
   0% {
     background-position: 110% 0%, 0 0;
+    -webkit-background-position: 110% 0%, 0 0;
   }
 
   100% {
     background-position: -10% 0%, 0 0;
+    -webkit-background-position: -10% 0%, 0 0;
   }
 }
 
@@ -74,10 +76,12 @@ body {
 @-webkit-keyframes shine {
   0% {
     background-position: 110% 0%, 0 0;
+    -webkit-background-position: 110% 0%, 0 0;
   }
 
   100% {
     background-position: -10% 0%, 0 0;
+    -webkit-background-position: -10% 0%, 0 0;
   }
 }
 
@@ -95,7 +99,6 @@ body {
       #c3c3c3 55%,
       #b5b5b5 78%,
       #929292 100%);
-
 
   -webkit-appearance: none;
   -moz-appearance: none;
