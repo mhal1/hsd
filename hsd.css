@@ -108,6 +108,10 @@ a:active {
   /* margin-block: 0.2em; */
   color: #858585;
 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   @supports ((background-clip: text) or (-webkit-background-clip: text)) {
     color: transparent;
     background-image:
@@ -472,48 +476,59 @@ main {
     opacity: 0;
     transform: translateZ(290px);
   }
+
   80% {
     transform: translateZ(10px);
   }
+
   100% {
     opacity: 1;
     transform: translateZ(0);
   }
 }
+
 @-webkit-keyframes rotateZ {
   0% {
     opacity: 0;
     transform: translateZ(290px);
   }
+
   80% {
     transform: translateZ(10px);
   }
+
   100% {
     opacity: 1;
     transform: translateZ(0);
   }
 }
+
 @-o-keyframes rotateZ {
   0% {
     opacity: 0;
     transform: translateZ(290px);
   }
+
   80% {
     transform: translateZ(10px);
   }
+
   100% {
     opacity: 1;
     transform: translateZ(0);
   }
 }
+
 @keyframes rotateZ {
   0% {
     opacity: 0;
     transform: translateZ(290px);
   }
+
   80% {
     transform: translateZ(10px);
   }
+
   100% {
     opacity: 1;
     transform: translateZ(0);
