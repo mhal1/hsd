@@ -50,6 +50,10 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  > a {
+    text-decoration: none;
+  }
 }
 
 @keyframes shine {
@@ -282,4 +286,5 @@ button {
   font-size: 12pt;
   font-family: Prompt;
   padding: 0.25em 0.5em;
+  color: #000000;
 }
