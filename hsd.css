@@ -82,54 +82,33 @@ body {
 }
 
 .title>h1 {
-  text-transform: uppercase;
-  font-size: 12pt;
-  margin-block: 0.2em;
-  letter-spacing: 2px;
-  font-weight: bold;
-  background-image: linear-gradient(to right,
-      #a1a1a1 0,
-      #f5f5f5 22%,
-      #eeeeee 45%,
-      #c8c8c8 50%,
-      #c3c3c3 55%,
-      #b5b5b5 78%,
-      #929292 100%);
-  color: transparent;
-
-  color: #858585;
 
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
-  @supports ((background-clip: text) or (-webkit-background-clip: text)) {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    color: transparent;
-    background-image:
-      linear-gradient(to right,
-        transparent 0%,
-        transparent 45%,
-        white 50%,
-        transparent 55%,
-        transparent 100%),
-      linear-gradient(270deg,
-        #8c8c8c 1.3%,
-        #999 15% #868686 29.6%,
-        #828282 29.6%,
-        #7d7d7d 31.8%,
-        #797979 31.8%,
-        #6a6a6a 38.9%,
-        #d3d3d3);
-    background-position: 110% 0%, 0 0;
-    background-size: 200% auto, auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: shine infinite ease-in-out alternate-reverse 1.5s;
-    -webkit-animation: shine infinite ease-in-out alternate-reverse 1.5s;
-  }
+  font-size: 13pt;
+  color: #858585;
+  background-image:
+    linear-gradient(to right,
+      transparent 0%,
+      transparent 45%,
+      white 50%,
+      transparent 55%,
+      transparent 100%),
+    linear-gradient(270deg,
+      #8c8c8c 1.3%,
+      #999 15% #868686 29.6%,
+      #828282 29.6%,
+      #7d7d7d 31.8%,
+      #797979 31.8%,
+      #6a6a6a 38.9%,
+      #d3d3d3);
+  background-position: 110% 0%, 0 0;
+  background-size: 200% auto, auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine infinite ease-in-out alternate-reverse 1.5s;
+  -webkit-animation: shine infinite ease-in-out alternate-reverse 1.5s;
 }
 
 
