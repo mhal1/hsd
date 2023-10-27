@@ -309,7 +309,7 @@ main {
 
 
 
-@keyframes over-and-back {
+/* @keyframes over-and-back {
   0% {
     background-color: hsl(0, 50%, 50%);
     transform: translate(0);
@@ -330,4 +330,4 @@ main {
   height: 100px;
   background-color: green;
   animation: over-and-back 1.5s linear infinite;
-}
+} */
