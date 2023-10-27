@@ -81,13 +81,27 @@ body {
   }
 }
 
-.title>h1 {
+.hsd-title {
+  text-transform: uppercase;
+  font-size: 12pt;
+  margin-block: 0.2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-image: linear-gradient(to right,
+      #a1a1a1 0,
+      #f5f5f5 22%,
+      #eeeeee 45%,
+      #c8c8c8 50%,
+      #c3c3c3 55%,
+      #b5b5b5 78%,
+      #929292 100%);
+
 
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 13pt;
-  color: #858585;
+
+  color: transparent;
   background-image:
     linear-gradient(to right,
       transparent 0%,
@@ -109,6 +123,7 @@ body {
   background-clip: text;
   animation: shine infinite ease-in-out alternate-reverse 1.5s;
   -webkit-animation: shine infinite ease-in-out alternate-reverse 1.5s;
+
 }
 
 
@@ -131,8 +146,6 @@ body {
 
   >span {
     color: aliceblue;
-
-
   }
 
 }
