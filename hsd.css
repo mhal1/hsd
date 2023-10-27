@@ -35,21 +35,22 @@ body {
   -moz-appearance: none;
   appearance: none;
 
-  > .bannerItem {
-    border: 1px solid red;
-    -webkit-border: 1px solid red;
-    display: flex;
-    -webkit-display: flex;
-    flex-direction: row;
-    align-items: center !important;
-    align-content: center;
-    -webkit-align-items: center !important;
-    -webkit-align-content: center;
-    column-gap: 5px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+}
+
+.bannerItem {
+  border: 1px solid red;
+  -webkit-border: 1px solid red;
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  align-content: center;
+  -webkit-align-items: center !important;
+  -webkit-align-content: center;
+  column-gap: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @keyframes shine {
@@ -312,4 +313,3 @@ main {
     transform: scale(1);
   }
 }
-
