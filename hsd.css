@@ -51,7 +51,7 @@ body {
   -moz-appearance: none;
   appearance: none;
 
-  > a {
+  >a {
     text-decoration: none;
   }
 }
@@ -214,7 +214,7 @@ main {
 }
 
 .hero-1 {
-  font-family: 'Prompt', sans-serif; 
+  font-family: 'Prompt', sans-serif;
   font-size: 25pt;
 }
 
@@ -236,32 +236,33 @@ main {
   font-family: Gabarito;
 }
 
-.noticeIcon{
+.noticeIcon {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mainImg{
+.mainImg {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 4rem;
 }
 
-.mImg{
+.mImg {
   padding: 1em;
   width: 100%;
   border-radius: 25px;
 }
 
-.optionsMain{
+.optionsMain {
   padding: 1em;
   font-family: Gabarito;
   display: flex;
   flex-direction: column;
   row-gap: 3em;
+  margin-bottom: 4em;
 }
 
 .bookAppointment {
@@ -270,7 +271,7 @@ main {
   row-gap: 1em;
 }
 
-.bATitle{
+.bATitle {
   font-size: 17pt;
 }
 
@@ -280,11 +281,45 @@ main {
 
 
 button {
-  border: rgb(25, 0, 255) 2px solid;
+  border: #002E4B 2px solid;
   border-radius: 5px;
   background-color: transparent;
   font-size: 12pt;
   font-family: Prompt;
   padding: 0.25em 0.5em;
   color: #000000;
+}
+
+footer {
+  font-family: Gabarito;
+  color: aliceblue;
+  background-color: #002E4B;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4em;
+}
+
+.mainFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactFooter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+
+.contactTitle {
+  font-size: 17pt;
+}
+
+.footerItem{
+  font-size: 12pt;
+}
+
+.copyright{
+  font-size: 12pt;
 }
