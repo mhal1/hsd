@@ -316,10 +316,54 @@ footer {
   font-size: 17pt;
 }
 
-.footerItem{
+.footerItem {
   font-size: 12pt;
 }
 
-.copyright{
+.copyright {
   font-size: 12pt;
 }
+
+
+.accredMain {
+  padding: 1em;
+  font-family: Gabarito;
+  margin-bottom: 3em;
+}
+
+
+.accredTitle {
+  font-size: 17pt;
+  margin-bottom: 1em;
+}
+
+.accreditations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+  justify-content: space-between;
+
+  >div {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.bdaLogo {
+  width: 100%;
+}
+
+.bmaLogo {
+  width: 100%;
+  background-color: #002E4B;
+}
+
+.gdcLogo {
+  width: 100%;
+}
+
+.bmaLogoCont {}
