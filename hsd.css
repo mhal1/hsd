@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 9999;
   /* border-bottom: 2px solid rgb(167, 167, 167); */
   /* border-top: 2px solid rgb(167, 167, 167); */
 }
@@ -164,11 +164,14 @@ main {
 }
 
 .nav-menu {
+  font-family: Gabarito;
+  font-size: 15pt;
+  text-align: center;
   margin: 0;
   padding-left: 0;
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   list-style: none;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   color: #000000;
 }
 
@@ -191,7 +194,6 @@ main {
   left: 0;
   width: 100%;
   perspective: 1000px;
-  z-index: 1;
   animation: fadeIn 0.5s;
 }
 
@@ -199,7 +201,7 @@ main {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(-15px);
+    transform: translateY(-5px);
   }
 
   100% {
@@ -213,7 +215,6 @@ main {
   height: 13rem;
   text-align: center;
   color: #000000;
-  z-index: -1;
 }
 
 .hero-1 {
