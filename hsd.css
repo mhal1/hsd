@@ -13,7 +13,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 .page-header {
+  position: sticky;
+  top: 40px;
   padding: 1em;
   background-color: #484848;
   display: flex;
@@ -26,6 +29,8 @@ body {
 
 
 .contactBanner {
+  position: sticky;
+  top: 0;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -141,7 +146,8 @@ main {
 }
 
 .menu {
-  position: relative;
+  position: sticky;
+  top:110px;
 }
 
 .menu-toggle {
@@ -153,7 +159,7 @@ main {
 
 .menu-dropdown {
   display: none;
-  position: absolute;
+ 
   right: 0;
   left: 0;
   margin: 0;
